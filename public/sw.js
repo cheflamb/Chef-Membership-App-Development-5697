@@ -1,4 +1,6 @@
 /* eslint-env serviceworker */
+/* global clients */
+
 self.addEventListener('push', function(event) {
   console.log('Push event received:', event);
   

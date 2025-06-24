@@ -1,4 +1,4 @@
-// Service Worker for handling push notifications
+/* eslint-env serviceworker */
 self.addEventListener('push', function(event) {
   console.log('Push event received:', event);
   
